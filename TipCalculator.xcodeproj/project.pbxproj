@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		280823D61D8C6ED500065E12 /* TipComputer.m in Sources */ = {isa = PBXBuildFile; fileRef = 280823D51D8C6ED400065E12 /* TipComputer.m */; };
 		281FCF5F1D8C4E3900EDA34A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 281FCF5E1D8C4E3900EDA34A /* main.m */; };
 		281FCF621D8C4E3900EDA34A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 281FCF611D8C4E3900EDA34A /* AppDelegate.m */; };
 		281FCF651D8C4E3900EDA34A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 281FCF641D8C4E3900EDA34A /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		280823D41D8C6ED400065E12 /* TipComputer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipComputer.h; sourceTree = "<group>"; };
+		280823D51D8C6ED400065E12 /* TipComputer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipComputer.m; sourceTree = "<group>"; };
 		281FCF5A1D8C4E3900EDA34A /* TipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		281FCF5E1D8C4E3900EDA34A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		281FCF601D8C4E3900EDA34A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				281FCF6B1D8C4E3900EDA34A /* LaunchScreen.storyboard */,
 				281FCF6E1D8C4E3900EDA34A /* Info.plist */,
 				281FCF5D1D8C4E3900EDA34A /* Supporting Files */,
+				280823D41D8C6ED400065E12 /* TipComputer.h */,
+				280823D51D8C6ED400065E12 /* TipComputer.m */,
 			);
 			path = TipCalculator;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				280823D61D8C6ED500065E12 /* TipComputer.m in Sources */,
 				281FCF651D8C4E3900EDA34A /* ViewController.m in Sources */,
 				281FCF621D8C4E3900EDA34A /* AppDelegate.m in Sources */,
 				281FCF5F1D8C4E3900EDA34A /* main.m in Sources */,
@@ -307,6 +313,7 @@
 				281FCF731D8C4E3900EDA34A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
